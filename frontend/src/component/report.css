@@ -1,0 +1,53 @@
+.generate-report-container {
+    text-align: center;
+    margin: 50px auto;
+    width: 45%; /* Adjust width as needed */
+    background-color: #f7cdd9; /* Container background color */
+    border-radius: 5px; /* Add rounded corners */
+    padding: 20px; /* Maintain padding for content */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  }
+  
+  .generate-report-container button {
+    padding: 10px 20px;
+    background-color: #f0f5f5; /* Button background color */
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .generate-report-container button:hover {
+    background-color: #dabfbf; /* Darker background color on hover */
+  }
+  
+  .generate-report-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .generate-report-container table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .generate-report-container th,
+  .generate-report-container td {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .generate-report-container th {
+    background-color: #f0f0f0; /* Header background color */
+  }
+  
+  .generate-report-container th:first-child,
+  .generate-report-container td:first-child {
+    border-left: none; /* Remove left border from first column */
+  }
+  
+  .generate-report-container th:last-child,
+  .generate-report-container td:last-child {
+    border-right: none; /* Remove right border from last column */
+  }
+  

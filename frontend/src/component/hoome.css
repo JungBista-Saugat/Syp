@@ -1,0 +1,92 @@
+/* Services Section */
+.services-container {
+  text-align: center;
+  margin: 50px auto 50px; /* Adjusted margin to add space between sections */
+}
+
+.services-container h2 {
+  margin-top: 95px;
+  margin-bottom: 30px;
+  font-size: 24px;
+}
+
+.services-row {
+  padding: 0px;
+  margin-left: 150px;
+}
+
+.service-box {
+  width: 25%;
+  text-align: center;
+  background-color: #f7cdd9;
+  margin: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  float: right;
+}
+
+.service-box i {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.service-box h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.service-box p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.service-box:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+/* Doctor Section */
+.doctors-container {
+  text-align: center;
+  margin: 50px auto 50px; /* Adjusted margin to add space between sections */
+}
+
+.doctors-container h2 {
+  margin-top: 295px; /* Adjusted margin to position below service section */
+  margin-bottom: 130px;
+  margin-left: 300px;
+  font-size: 24px;
+}
+
+.doctor-row {
+  padding: 0px;
+  margin-left: 150px;
+}
+
+.doctor-box {
+  width: 20%;
+  margin: 20px;
+  padding: 20px;
+  background-color: #f7d1d1;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  float: right;
+  text-align: center;
+}
+
+.doctor-box h3 {
+  margin-top: 15px;
+}
+
+.doctor-box:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
